@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'SEGA LOGO FONT(RUS BY LYAJKA)';
   font-weight: bold;
-  src: url('dreamcast-community/images//fonts/segalogofontrusbylyajka.otf') format("opentype");
+  src: url('./fonts/segalogofontrusbylyajka.otf') format("opentype");
 }
 
 @import url('./fonts/segalogofontrusbylyajka.otf');
@@ -11,7 +11,7 @@
   padding: auto;
   text-align: center;
   background: white;
-    background: url(./github.com/Ashtray3250/dreamcast-community/images/logo.png) ;
+    background: url(./images/logo.png) ;
     background-repeat: no-repeat;
     background-size: cover;  
     
