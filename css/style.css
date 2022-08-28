@@ -11,11 +11,15 @@
   padding: auto;
   text-align: center;
   background: white;
-    background: url(dreamcast-community/images//images/logo.png) ;
+    background: url(https://github.com/ashtray3250/ashtray3250.github.io/dreamcast-community//images//images/logo.png) ;
     background-repeat: no-repeat;
     background-size: cover;  
     
 }
+
+https://github.com/логин_хаба/логин_хаба.github.io/blob/master/images/cs.jpg?raw=true
+
+
 .menu-main li {display: inline-block;}
 .menu-main li:after {
   content: "|";
