@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'SEGA LOGO FONT(RUS BY LYAJKA)';
   font-weight: bold;
-  src: url(https://ashtray3250.github.io/dreamcast-community/css/dreamcast-community/fonts/segalogofontrusbylyajka.otf') format("opentype");
+  src: url(http://fonts.cdnfonts.com/css/sega-logo-font" rel="stylesheet');
 }
 
 @import url('/fonts/segalogofontrusbylyajka.otf');
