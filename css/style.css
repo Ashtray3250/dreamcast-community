@@ -1,17 +1,17 @@
 @font-face {
   font-family: 'SEGA LOGO FONT(RUS BY LYAJKA)';
   font-weight: bold;
-  src: url('/Users/Ashtr/Desktop/dreamcast\ site/fonts/segalogofontrusbylyajka.otf') format("opentype");
+  src: url(http://fonts.cdnfonts.com/css/sega-logo-font) format("opentype");
 }
 
-@import url('/Users/Ashtr/Desktop/dreamcast\ site/fonts/segalogofontrusbylyajka.otf');
+@import url(http://fonts.cdnfonts.com/css/sega-logo-font);
 .menu-main {
   list-style: none;
   margin: auto;
   padding: auto;
   text-align: center;
   background: white;
-    background: url(https://github.com/Ashtray3250/dreamcast-community/blob/main/images/logo.png) ;
+    background: url(/dreamcast-community/css/dreamcast-community/images/logo.png);
     background-repeat: no-repeat;
     background-size: cover;  
     
