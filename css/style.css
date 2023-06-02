@@ -1,0 +1,88 @@
+@font-face {
+  font-family: 'SEGA LOGO FONT(RUS BY LYAJKA)';
+  font-weight: bold;
+  src: url('/Users/Ashtr/Desktop/dreamcast\ site/fonts/segalogofontrusbylyajka.otf') format("opentype");
+}
+
+@import url('/Users/Ashtr/Desktop/dreamcast\ site/fonts/segalogofontrusbylyajka.otf');
+.menu-main {
+  list-style: none;
+  margin: auto;
+  padding: auto;
+  text-align: center;
+  background: white;
+    background: url(/Users/Ashtr/Desktop/backup\ win\ 11/dreamcast\ site/images/logo.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    
+}
+.menu-main li {display: inline-block;}
+.menu-main li:after {
+  content: "|";
+  color: #606060;
+  display: inline-block;
+  vertical-align:top;
+
+}
+.menu-main li:last-child:after {content: none;}
+.menu-main a {
+  text-decoration: none;
+  font-family: 'SEGA LOGO FONT(RUS BY LYAJKA)';
+  letter-spacing: 2px;
+  position: relative;
+  padding-bottom: 20px;
+  margin: 0 34px 0 30px;
+  font-size: 21px;
+  text-transform: uppercase;
+  display: inline-block;
+  transition: color .2s;
+  margin-top: 20px;
+}
+.menu-main a, .menu-main a:visited {color: #9d999d;}
+.menu-main a.current, .menu-main a:hover{color: #17569b;}
+.menu-main a:before,
+.menu-main a:after {
+  content: "";
+  position: absolute;
+  height: 4px;
+  top: auto;
+  right: 50%;
+  bottom: -5px;
+  left: 50%;
+  background: #17569b;
+  transition: .8s;
+}
+.menu-main a:hover:before, .menu-main .current:before {left: 0;}
+.menu-main a:hover:after, .menu-main .current:after {right: 0;}   
+@media screen and (max-width: 600px) {
+.menu-main {padding-top: 0;}
+.menu-main li {display: block;}
+.menu-main li:after {content: none;}
+.menu-main a {
+  padding: 25px 0 20px; 
+  margin: 0 30px;
+}
+}
+
+h1 {
+  font-family: 'SEGA LOGO FONT(RUS BY LYAJKA)';
+    text-decoration: none;
+    list-style: none;
+    margin: 235 34px 0 30px;
+    padding-bottom: 1000px;
+    text-align: center;
+    color: #17569b;
+    font-size: 29px;
+    letter-spacing: 5px;
+}
+
+h3 {
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    color: #17569b;
+    font-size: 29px;
+    letter-spacing: 0px;
+    position:absolute; left:80px; top:200px;
+}
+
