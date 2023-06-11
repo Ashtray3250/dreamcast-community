@@ -1,20 +1,23 @@
+body{
+  background: white;
+  background: url(/Users/Ashtr/Desktop//dreamcast\ site/images/logo.png) ;
+  margin:0;
+  padding:0;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  }
+
+
 @font-face {
   font-family: 'SEGA LOGO FONT(RUS BY LYAJKA)';
   font-weight: bold;
-  src: url(http://fonts.cdnfonts.com/css/sega-logo-font) format("opentype");
+  src: url('/Users/Ashtr/Desktop/dreamcast\ site/fonts/segalogofontrusbylyajka.otf') format("opentype");
 }
 
-@import url(http://fonts.cdnfonts.com/css/sega-logo-font);
+@import url('/Users/Ashtr/Desktop/dreamcast\ site/fonts/segalogofontrusbylyajka.otf');
 .menu-main {
   list-style: none;
-  margin: auto;
-  padding: auto;
   text-align: center;
-  background: white;
-    background: url(/dreamcast-community/css/dreamcast-community/images/logo.png);
-    background-repeat: no-repeat;
-    background-size: cover;  
-    
 }
 .menu-main li {display: inline-block;}
 .menu-main li:after {
@@ -58,18 +61,12 @@
 .menu-main {padding-top: 0;}
 .menu-main li {display: block;}
 .menu-main li:after {content: none;}
-.menu-main a {
-  padding: 25px 0 20px; 
-  margin: 0 30px;
-}
 }
 
 h1 {
   font-family: 'SEGA LOGO FONT(RUS BY LYAJKA)';
     text-decoration: none;
     list-style: none;
-    margin: 235 34px 0 30px;
-    padding-bottom: 1000px;
     text-align: center;
     color: #17569b;
     font-size: 29px;
@@ -83,6 +80,5 @@ h3 {
     color: #17569b;
     font-size: 29px;
     letter-spacing: 0px;
-    position:absolute; left:80px; top:200px;
 }
 
